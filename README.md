@@ -83,6 +83,18 @@ npm install @mui/material @mui/styled-engine-sc styled-components
 
 npm install @mui/icons-material
 
+### React Slick
+
+npm install react-slick --save
+
+### Slick carousel
+
+npm install slick-carousel --save
+
+### React router-dom
+
+npm install react-router-dom
+
 ### Firebase database, hosting and cloud functions
 
 npm install firebase
