@@ -1,7 +1,17 @@
 import React from "react";
 import styled from "styled-components";
+import { useStateValue } from "../../providers/StateProvider";
 
-function Product({ title, image, price, rating }) {
+function Product({ id, title, image, price, rating }) {
+  const [{ basket }, dispatch] = useStateValue();
+  console.log("Inside add to basket", basket);
+  //dispatch the item into data layer
+  const addToBasket = () => {
+    dispatch({
+      type: "ADD_TO_BASKET",
+      item: { id, title, image, price, rating },
+    });
+  };
   return (
     <Container>
       <ProductInfo>
@@ -19,7 +29,7 @@ function Product({ title, image, price, rating }) {
         </ProductRating>
       </ProductInfo>
       <ProductImage src={image} />
-      <ProductButton>Add to basket</ProductButton>
+      <ProductButton onClick={addToBasket}>Add to basket</ProductButton>
     </Container>
   );
 }
@@ -69,4 +79,5 @@ const ProductButton = styled.button`
   margin-top: 10px;
   border-color: #a88734 #9c7e31 #846a29;
   color: black;
+  cursor: pointer;
 `;

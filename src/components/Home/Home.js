@@ -10,12 +10,14 @@ function Home() {
         <BannerSlider></BannerSlider>
         <ProductsRow>
           <Product
+            id={1}
             title="Cracking the Coding Interview: 189 Programming Questions and Solutions "
             price={29.99}
             image="https://images-na.ssl-images-amazon.com/images/I/41oYsXjLvZL._SX348_BO1,204,203,200_.jpg"
             rating={3}
           ></Product>
           <Product
+            id={2}
             title="Computer Science Distilled: Learn the Art of Solving Computational Problems"
             price={39.99}
             image="https://images-na.ssl-images-amazon.com/images/I/41con8efdlL._SX322_BO1,204,203,200_.jpg"
@@ -24,18 +26,21 @@ function Home() {
         </ProductsRow>
         <ProductsRow>
           <Product
+            id={3}
             title="The Hidden Language of Computer Hardware and Software"
             price={19.99}
             image="https://images-na.ssl-images-amazon.com/images/I/31RLovAad7L._SX339_BO1,204,203,200_.jpg"
             rating={1}
           ></Product>
           <Product
+            id={4}
             title="Clean Code: A Handbook of Agile Software Craftsmanship"
             price={39.99}
             image="https://images-na.ssl-images-amazon.com/images/I/41xShlnTZTL._SX376_BO1,204,203,200_.jpg"
             rating={4}
           ></Product>
           <Product
+            id={5}
             title="The Pragmatic Programmer: your journey to mastery, 20th Anniversary Edition"
             price={49.99}
             image="https://images-na.ssl-images-amazon.com/images/I/51W1sBPO7tL._SX380_BO1,204,203,200_.jpg"
@@ -44,18 +49,21 @@ function Home() {
         </ProductsRow>
         <ProductsRow>
           <Product
+            id={6}
             title="Clean Architecture: A Craftsman's Guide to Software Structure and Design"
             price={89.99}
             image="https://images-na.ssl-images-amazon.com/images/I/41-sN-mzwKL._SX381_BO1,204,203,200_.jpg"
             rating={5}
           ></Product>
           <Product
+            id={7}
             title="Mastering Blockchain: Unlocking the Power of Cryptocurrencies, Smart Contracts, and Decentralized Applications"
             price={61.99}
             image="https://images-na.ssl-images-amazon.com/images/I/410CMdzrHDL._SX379_BO1,204,203,200_.jpg"
             rating={5}
           ></Product>
           <Product
+            id={8}
             title="Mastering Ethereum: Building Smart Contracts and DApp"
             price={64.02}
             image="https://images-na.ssl-images-amazon.com/images/I/51X3VeaAZnL._SX379_BO1,204,203,200_.jpg"
