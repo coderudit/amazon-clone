@@ -95,6 +95,10 @@ npm install slick-carousel --save
 
 npm install react-router-dom
 
+### React currency format
+
+npm install react-currency-format --save --force
+
 ### Firebase database, hosting and cloud functions
 
 npm install firebase
