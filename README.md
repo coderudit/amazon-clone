@@ -105,4 +105,7 @@ sudo npm install -g firebase-tools
 npm install firebase
 Project overview -> Project settings -> config code
 
+firebase login
+firebase init
+
 ### Stripe

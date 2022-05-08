@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { useStateValue } from "../../providers/StateProvider";
 
 function CheckoutProduct({ id, image, title, price, rating }) {
-  const [{ basket }, dispatch] = useStateValue();
+  const [{}, dispatch] = useStateValue();
   const RemoveFromBasket = () => {
     dispatch({ type: "REMOVE_FROM_BASKET", id: id });
   };
