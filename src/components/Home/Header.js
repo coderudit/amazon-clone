@@ -18,10 +18,12 @@ function Header() {
         <HeaderSearchIcon />
       </HeaderSearch>
       <HeaderNav>
-        <HeaderOption>
-          <OptionLineOne>Hello</OptionLineOne>
-          <OptionLineTwo>Sign In</OptionLineTwo>
-        </HeaderOption>
+        <Link to="/login">
+          <HeaderOption>
+            <OptionLineOne>Hello</OptionLineOne>
+            <OptionLineTwo>Sign In</OptionLineTwo>
+          </HeaderOption>
+        </Link>
         <HeaderOption>
           <OptionLineOne>Return</OptionLineOne>
           <OptionLineTwo>& Orders</OptionLineTwo>

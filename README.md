@@ -101,8 +101,8 @@ npm install react-currency-format --save --force
 
 ### Firebase database, hosting and cloud functions
 
-npm install firebase
 sudo npm install -g firebase-tools
+npm install firebase
 Project overview -> Project settings -> config code
 
 ### Stripe
